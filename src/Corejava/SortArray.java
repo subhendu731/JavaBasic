@@ -7,7 +7,7 @@ public class SortArray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int[] list= {4,1,3};
+		int[] list= {4,1,3,2};
 		System.out.println(Arrays.toString(list));
 		
 		for(int i=0; i<list.length-1; i++) {
