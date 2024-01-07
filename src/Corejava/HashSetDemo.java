@@ -9,13 +9,16 @@ public class HashSetDemo {
 
 	public static void main(String[] args) {
 		/*
-		 * HashSet does not allow duplicate values 
-		 * There is no guarantee that elements stored in sequential order
+		 * 1. HashSet does not allow duplicate values 
+		 * 2. Allow only single null value
+		 * 3. It is comparatively slower than HashMap
+		 * 4. There is no guarantee that elements stored in sequential order
+		 * 5.
 		 */
 		HashSet<String> hs=new HashSet<String>();
-		hs.add("Chennai");
 		hs.add("Kolkata");
 		hs.add("Bangalore");
+		hs.add("Chennai");
 		hs.add("Chennai");
 		
 		System.out.println(hs);
